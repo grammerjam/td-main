@@ -131,6 +131,7 @@
 
   width: 80%;
   height: 20%;
+  margin: 1.5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -143,6 +144,35 @@
 .description-container .section-heading {
 
   text-align: center;
-  margin: 1.5rem 0;
+
+}
+
+.perks-container {
+
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.perks-image {
+
+  height: 40%;
+  width: 100%;
+
+}
+
+.perks {
+
+  width: 95%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1rem;
 
 }
